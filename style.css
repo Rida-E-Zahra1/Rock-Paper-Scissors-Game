@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1 {
+    background-color: #081b31;
+    color: white;
+    height: 5rem;
+    line-height: 5rem;
+}
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+.choice {
+    height: 165px;
+    width: 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.choice:hover {
+    /* opacity: 0.5; */
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #081b31; /*#081b31*/
+}
+img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;      /* we can also set background-image & then background-size to cover  but hmen styling full background pr image nhi chahiye*/
+    border-radius: 50%;
+}
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+#user-score, #comp-score {
+    font-size: 4rem;
+}
+.msg-container {
+    margin-top: 3rem;
+}
+#msg {
+    background-color: #081b31;
+    color: white;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+body {
+    background-color: #fde2e4;
+}
